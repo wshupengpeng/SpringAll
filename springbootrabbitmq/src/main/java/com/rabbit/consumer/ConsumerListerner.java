@@ -7,6 +7,7 @@ import org.springframework.stereotype.Component;
 public class ConsumerListerner {
     @RabbitListener(queues = "spring_rabbitqueue")
     public void recevier(String msg){
+        System.out.println("123");
         System.out.println(msg);
     }
 }

@@ -1,4 +1,3 @@
-target/
 *.releaseBackup
 classes/
 *.class
