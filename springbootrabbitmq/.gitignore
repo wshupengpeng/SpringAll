@@ -1,6 +1,4 @@
 *.releaseBackup
-classes/
-*.class
 *.war
 *.ear
 /.classpath
