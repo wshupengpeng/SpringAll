@@ -1,0 +1,10 @@
+spring:
+  rabbitmq:
+    addresses: localhost
+    port: 5672
+    virtual-host: /test_host
+    username: root
+    password: root
+    listener:
+      direct:
+        acknowledge-mode: manual
